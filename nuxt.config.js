@@ -45,6 +45,10 @@ module.exports = {
     'bootstrap-vue/nuxt'
   ],
 
+  router: {
+    middleware: 'alert'
+  },
+
   /*
   ** Build configuration
   */
